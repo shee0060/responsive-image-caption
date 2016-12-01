@@ -17,21 +17,17 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
-  font-family: "Denk One", sans-serif;
-}
-
 body {
   margin: 0;
+}
+
+h2 {
+  font-family: "Denk One", sans-serif;
 }
 
 div {
   background-color: #e2e2e2;
   padding: .7rem;
-}
-
-img {
-  width: 100%;
 }
 
 .img-flex {
@@ -42,8 +38,22 @@ img {
 
 @media only screen and (min-width: 38em) {
 
+  body {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
+  div {
+    position: absolute;
+    background-color: rgba (0, 0, 0, .3)
+    border-radius: 10px;
+    right: 0;
+    bottom: 0;
+  }
 
+  section {
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 60em) {
