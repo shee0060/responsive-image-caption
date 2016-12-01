@@ -6,7 +6,7 @@ deliverables: '1 HTML file, 1 CSS file, images'
 
 # Responsive image & caption
 
-## Overview
+## Overview  
 
 - *Fork this repository.*
 - Code the layout that matches the screenshots.
