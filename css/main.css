@@ -19,12 +19,15 @@ html {
 
 h2 {
   font-family: "Denk One", sans-serif;
-  padding: 0 .7rem;
 }
 
 body {
-  background-color: #e2e2e2;
   margin: 0;
+}
+
+div {
+  background-color: #e2e2e2;
+  padding: .7rem;
 }
 
 img {
@@ -34,10 +37,6 @@ img {
 .img-flex {
   display: block;
   width: 100%;
-}
-
-p {
-  padding: 0 .7rem;
 }
 
 
